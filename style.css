@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+}
+.sim{
+    color: rgb(135, 35, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.rec{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive ;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+}
+.home{
+    padding: 5px 0;
+    display: flex;
+    gap: 20px;
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.home a:hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 300px;
+}
+button{
+    background-color: rgb(90, 50, 203);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin: 7px 0;
+    border-radius: 4px;
+}
+.hero-section img{
+    position: relative;
+    margin: 40px 0;
+    padding: 0 300px;
+}
+.reci{
+    position: absolute;
+    top: 220px;
+    right:550px;
+}
+.reci2{
+    color: white;
+    font-size: 60px;
+    width: 500px;
+}
+.reci3{
+    color: white;
+    font-size: 20px;
+    padding: 0 90px;
+    width: 400px;
+}
+ul{
+    list-style: none;
+    margin: 10px 0;
+}
+ul li{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul li:hover{
+    color: blue;
+}
+ul a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    gap: 60px;
+    padding: 0 300px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.image img{
+    border-radius: 5px;
+}
+.image a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+footer p{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+}
+span{
+    color: rgb(90, 50, 203) ;
+}

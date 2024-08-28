@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+}
+.sim{
+    color: rgb(135, 35, 235);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.rec{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive ;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+}
+.home{
+    padding: 5px 0;
+    display: flex;
+    gap: 20px;
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.home a:hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px;
+}
+button{
+    background-color: rgb(90, 50, 203);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin: 7px 0;
+    border-radius: 4px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px ;
+    padding: 0 300px;
+}
+main a{
+    text-decoration: none;
+    
+}
+.beef{
+    background-color: rgb(139, 139, 139);
+    height: 90px;
+    width: 358px;
+    border-radius: 4px;
+    padding: 20px 150px;
+    color: white;
+    font-size: 17px;
+    margin: 10px 0;
+ }
+ .beef:hover{
+    background-color: rgb(90, 50, 203);
+ }
+ footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin: 190px 0;
+}
+footer p{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+}
+span{
+    color: rgb(90, 50, 203) ;
+}

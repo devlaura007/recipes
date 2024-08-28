@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+}
+.sim{
+    color: rgb(135, 35, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.rec{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive ;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+}
+.home{
+    padding: 5px 0;
+    display: flex;
+    gap: 20px;
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.home a:hover{
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px;
+}
+.but{
+    background-color: rgb(90, 50, 203);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin: 7px 0;
+    border-radius: 4px;
+}
+.hero-section{
+    padding: 0 300px;
+    display: flex;
+    gap: 60px;
+}
+.risoto{
+    font-size: 45px;
+}
+.shabby{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.prep-time{
+    display: flex;
+    gap: 100px;
+    padding: 5px 60px;
+}
+
+.prep3{
+    padding: 0 10px;
+}
+.box1{
+    margin: 50px 0;
+}
+.box1 img{
+    border-radius: 10px;
+}
+.tags{
+    display: flex;
+    gap: 5px;
+    margin: 40px 0;
+}
+.btn{
+    padding: 0 4px;
+    height: 22px;
+    background-color: rgb(90, 50, 203);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.tag{
+    display: flex;
+    gap: 10px;
+}
+main{
+    display: flex;
+    gap: 290px;
+    padding: 0 300px;
+}
+.step1{
+    margin: 10px 0;
+}
+.step{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.step1 header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+.step1 header div{
+    height: 2px;
+    background-color: gainsboro;
+}
+.instruct{
+    font-size: 30px;
+}
+.ingredients{
+    margin: 10px 0;
+}
+.text1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.text2, .text3, .text4{
+    margin: 20px 0;
+    font-size: 18px;
+    border-bottom: 1px solid gainsboro;
+}
+.text5{
+    font-size: 30px;
+}
+.text6{
+    color: blue;
+    font-size: 18px;
+    margin: 20px 0;
+    border-bottom: 1px solid gainsboro;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+footer p{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+}
+span{
+    color: rgb(90, 50, 203) ;
+}
